@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de certificado</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body id="body">
+    <div id="cform">
+
+        <div id="chform">
+            <h1 class="titulo-certificado">Gerador de certificado</h1>
+
+            <p class="seu-nome">Digite Seu Nome</p>
+            <input type="text" id="fname" name="username" required="" placeholder="Digite Seu Nome">
+
+            <p class="detalhes-certificado">Digite os detalhes do seu certificado</p>
+            <input type="text" id="fdetails" name="userdetails" required="" placeholder="Digite os detalhes do seu certificado">
+
+            <p class="nome-organizacao">Digite o nome da organização</p>
+            <input type="text" id="forganisername" name="organisername" required="" placeholder="Digite nome da organização">
+
+            <button id="bcertificate" onclick="check()">Gerar certificado</button>
+            <button id="downloaddata" onclick="dcheck()">Baixar certificado</button>
+        </div>
+    </div>
+
+    <div id="main">
+        <div id="child1">
+            <div class="cabecalho-certificado">
+                <img class="logo-certificado" src="South-Logo-Oficial.png" alt="Logo da     empresa">
+                <h1 id="img2">South & Co.</h1>
+            </div>
+            <div class="body">
+                Certificado de participação
+            </div>
+
+            <h3 class="h3" id="name"></h3>
+            <hr size="bolder">
+            <p class="por-completar-com-sucesso">Por completar com sucesso</p>
+
+            <h4 class="details"></h4>
+            <p class="reconhecemos-esforco">Nós reconhecemos seus esforços. Parabéns pela conclusão</p>
+            
+            <h5 class="organisername"></h5>
+
+        </div>
+    </div>
+</body>
+</html>
